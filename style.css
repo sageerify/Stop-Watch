@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: blueviolet;
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.box{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.heading{
+    color: black;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+
+}
+button{
+    outline: none;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+
+}
